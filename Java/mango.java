@@ -1,8 +1,8 @@
 public class mango {
     static int sum (int a, int b){
-    System.out.println("a+b:");
+    return a + b; 
     }
     public static void main(String[] args) {
-        System.out.println(sum(23,76));
-    }
+        System.out.println("a+b: " + sum(23, 76)); 
 }
+
